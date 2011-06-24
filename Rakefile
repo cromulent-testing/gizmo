@@ -11,10 +11,10 @@ begin
     gem.homepage = "http://github.com/icaruswings/gizmo"
     gem.authors = ["Luke Cunningham", "Mike Bain", "Mark Ryall", "Perryn Fowler"]
     gem.add_development_dependency "rspec", "~>2.6.0"
-    gem.add_development_dependency "cucumber", "~>0.10.7"
+    gem.add_development_dependency "cucumber", "~>1.0.0"
     gem.add_development_dependency "metric_fu", "~>2.1.1"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
-    gem.add_dependency "capybara", "~>1.0.0"
+    gem.add_dependency "capybara", "~>0.4.1"
     gem.add_dependency "activesupport", "~>3.0.8"
     gem.add_dependency "tilt", "~>1.3.2"
   end

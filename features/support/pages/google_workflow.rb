@@ -7,9 +7,9 @@ module GoogleWorkflow
       page.search_for search_term
     end
 
-    results = ""
+    results = []
     on_page_with :google_search_results do |page|
-      results = page.get_stuff
+      results = page.get_results
     end
     results
   end
